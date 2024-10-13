@@ -147,7 +147,8 @@ img {
     gap: 24px;
 }
 
-.page-factors-items {
+
+.page-factors-list li:first-child {
     flex-basis: calc((100% - 72px) / 4);
 }
 
