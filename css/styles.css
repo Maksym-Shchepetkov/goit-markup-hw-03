@@ -6,6 +6,8 @@ body {
 
 ul, ol {
     list-style-type: none;
+    padding-left: 0;
+    margin: 0;
 }
 
 a {
@@ -148,8 +150,8 @@ img {
 }
 
 
-.page-factors-list li:first-child {
-    flex-basis: calc((100% - 72px) / 4);
+.page-factors-items {
+    width: calc((100% - 72px) / 4);
 }
 
 .page-factors-title {
